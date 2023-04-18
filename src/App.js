@@ -14,12 +14,12 @@ import UsuarioComponent from "./components/TodoComponents/UsuarioComponent";
 
 const App = ()=>{
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/MSR-FrontEnd">
       <Routes>
-        <Route path = "/MSR-FrontEnd" element={<HomePage/>}/>
+        <Route exact path = "/" element={<HomePage/>}/>
         <Route path = "/Login" element={<LoginPage/>}/>
         <Route path = "/Register" element={<RegisterPage/>}/>
-        <Route path = "/MSR-FrontEnd/MainView" element={<MainView/>}/>
+        <Route path = "/MainView" element={<MainView/>}/>
         <Route path = "/Profile" element={<ProfilePage/>}/>
         <Route path = "/Reddit" element={<RedditPage/>} />
         <Route path = "/Post1" element={<Post1Blog/>} />
