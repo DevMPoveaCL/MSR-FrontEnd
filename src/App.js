@@ -3,9 +3,7 @@ import React from "react";
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import { HomePage, LoginPage, RegisterPage, MainView, ProfilePage } from "./pages";
 
-import Post1 from "./components/BlogComponents/Posts/Post1";
-import SideNavComponent from "./components/RedditComponents/SideNavComponent";
-import MainComponents from "./components/RedditComponents/MainComponents";
+
 import RedditPage from "./pages/RedditPage/RedditPage";
 import Post1Blog from "./pages/RedditPage/RedditPostPages/Post1Blog";
 import Post2Blog from "./pages/RedditPage/RedditPostPages/Post2Blog";
@@ -16,7 +14,7 @@ import UsuarioComponent from "./components/TodoComponents/UsuarioComponent";
 
 const App = ()=>{
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/msr-frontend">
       <Routes>
         <Route path = "/" element={<HomePage/>}/>
         <Route path = "/Login" element={<LoginPage/>}/>
