@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 /* import "../assets/Login.css"; */
 import axios from 'axios';
+import { Link } from "react-router-dom";
 
 const initialUsuario = {
     name: "",
@@ -98,7 +99,7 @@ const UserFormComponent = ({ userAdd, usuarioEditado, setUsuarioEditado, userEdi
 
                     <div class="opcbtn mb-3">
                         <button class="btn btn  ">
-                            <a href="/MSR-FrontEnd/MainView">Iniciar sesión</a>
+                            <Link to="./MainView">Iniciar sesión</Link>
                         </button>
 
                         {/* <button type="submit" disabled={isLoading}>
@@ -109,10 +110,10 @@ const UserFormComponent = ({ userAdd, usuarioEditado, setUsuarioEditado, userEdi
 
                     <div class="linea">
                         <div class="mb-3">
-                            <span> <a href="#">Olvidaste tu contraseña</a></span> <br />
+                            <span> <Link to="#">Olvidaste tu contraseña</Link></span> <br />
                         </div>
                         <div class="mb-3">
-                            <span>¿No estás registrado aún? <a class="linea" href="/MSR-FrontEnd/Register">Regístrate aquí</a></span> <br />
+                            <span>¿No estás registrado aún? <Link class="linea" to="./Register">Regístrate aquí</Link></span> <br />
                         </div>
                     </div>
 
