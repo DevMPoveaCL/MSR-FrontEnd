@@ -8,9 +8,9 @@ import { FullScreen, useFullScreenHandle } from "react-full-screen";
 
 const usuario1 = [
   {
-    nombre: "Nicole",
-    username: "user.nicole",
-    email: "nicoole.opazo@gmail.com",
+    nombre: "Mark",
+    username: "mark.antonhy",
+    email: "mark.anthony@gmail.com",
     password: "1234"
   }
 ]

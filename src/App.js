@@ -16,17 +16,17 @@ const App = ()=>{
   return (
     <BrowserRouter basename="/MSR-FrontEnd">
       <Routes>
-        <Route exact path = "/" element={<HomePage/>}/>
-        <Route path = "/MSR-FrontEnd/Login" element={<LoginPage/>}/>
-        <Route path = "/MSR-FrontEnd/Register" element={<RegisterPage/>}/>
-        <Route path = "/MSR-FrontEnd/MainView" element={<MainView/>}/>
-        <Route path = "/MSR-FrontEnd/Profile" element={<ProfilePage/>}/>
-        <Route path = "/MSR-FrontEnd/Reddit" element={<RedditPage/>} />
-        <Route path = "/MSR-FrontEnd/Post1" element={<Post1Blog/>} />
-        <Route path = "/MSR-FrontEnd/Post2" element={<Post2Blog/>} />
-        <Route path = "/MSR-FrontEnd/Post3" element={<Post3Blog/>} />
-        <Route path = "/MSR-FrontEnd/Post4" element={<Post4Blog/>} />
-        <Route path = "/MSR-FrontEnd/Todo" element={<UsuarioComponent/>} />
+        <Route exact path = "/MSR-FrontEnd" element={<HomePage/>}/>
+        <Route path = "/Login" element={<LoginPage/>}/>
+        <Route path = "/Register" element={<RegisterPage/>}/>
+        <Route path = "/MainView" element={<MainView/>}/>
+        <Route path = "/Profile" element={<ProfilePage/>}/>
+        <Route path = "/Reddit" element={<RedditPage/>} />
+        <Route path = "/Post1" element={<Post1Blog/>} />
+        <Route path = "/Post2" element={<Post2Blog/>} />
+        <Route path = "/Post3" element={<Post3Blog/>} />
+        <Route path = "/Post4" element={<Post4Blog/>} />
+        <Route path = "/Todo" element={<UsuarioComponent/>} />
 
 
       </Routes>

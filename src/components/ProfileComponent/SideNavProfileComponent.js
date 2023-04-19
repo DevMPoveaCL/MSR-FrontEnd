@@ -8,13 +8,13 @@ export default function SideNavProfileComponent() {
     ]
 
     const subreddits = [
-        <a href='/MainView'>Volver al menu</a>
+        <a href='/MSR-FrontEnd/MainView'>Volver al menu</a>
     ]
     return (
         <div className='sidenav'>
             <div className='sidenav_logo'>
 
-            <a href='/MainView'><img src={require('../assets/MainViewAssets/pomo-logo.png')} class=""></img></a>
+            <a href='/MSR-FrontEnd/MainView'><img src={require('../assets/MainViewAssets/pomo-logo.png')} class=""></img></a>
             </div>
             <br></br>
             <div className='sidenav_links'>
