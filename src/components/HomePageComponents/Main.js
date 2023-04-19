@@ -18,13 +18,13 @@ const MainComponent = () => {
               ¿Todo listo para estudiar?
               <Link
                 class="sesion btn btn-primary btn-xl text-uppercase mt-5 me-5"
-                to="./Login"
+                to="/MSR-FrontEnd/Login"
               >
                 Inicia sesión
               </Link>
               <Link
                 class="sesion btn btn-primary "
-                to="./MainView"
+                to="/MSR-FrontEnd/MainView"
               >
                 Continua como invitado
               </Link>
