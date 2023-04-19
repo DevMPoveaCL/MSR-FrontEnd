@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 /* import "../Index.css"; */
 
 const MainComponent = () => {
@@ -16,18 +15,18 @@ const MainComponent = () => {
             />
             <div class="saludo2 masthead-heading text">
               ¿Todo listo para estudiar?
-              <Link
+              <a
                 class="sesion btn btn-primary btn-xl text-uppercase mt-5 me-5"
-                to="/MSR-FrontEnd/Login"
+                href="/MSR-FrontEnd/Login"
               >
                 Inicia sesión
-              </Link>
-              <Link
+              </a>
+              <a
                 class="sesion btn btn-primary "
-                to="/MSR-FrontEnd/MainView"
+                href="/MSR-FrontEnd/MainView"
               >
                 Continua como invitado
-              </Link>
+              </a>
 
             </div>
           </div>
