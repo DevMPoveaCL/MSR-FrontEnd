@@ -14,9 +14,9 @@ import UsuarioComponent from "./components/TodoComponents/UsuarioComponent";
 
 const App = ()=>{
   return (
-    <BrowserRouter >
+    <BrowserRouter basename="/MSR-FrontEnd">
       <Routes>
-        <Route exact path = "/MSR-FrontEnd" element={<HomePage/>}/>
+        <Route exact path = "/" element={<HomePage/>}/>
         <Route path = "./Login" element={<LoginPage/>}/>
         <Route path = "./Register" element={<RegisterPage/>}/>
         <Route path = "./MainView" element={<MainView/>}/>
