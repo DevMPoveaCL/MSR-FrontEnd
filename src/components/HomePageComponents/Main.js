@@ -17,7 +17,7 @@ const MainComponent = () => {
               ¿Todo listo para estudiar?
               <a
                 class="sesion btn btn-primary btn-xl text-uppercase mt-5 me-5"
-                href="MSR-FrontEnd/Login"
+                href="/MSR-FrontEnd/Login"
               >
                 Inicia sesión
               </a>
