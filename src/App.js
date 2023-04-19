@@ -1,6 +1,6 @@
 import React from "react";
 
-import {Routes, Route, HashRouter} from 'react-router-dom'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import { HomePage, LoginPage, RegisterPage, MainView, ProfilePage } from "./pages";
 
 
@@ -14,9 +14,9 @@ import UsuarioComponent from "./components/TodoComponents/UsuarioComponent";
 
 const App = ()=>{
   return (
-    <HashRouter>
+    <BrowserRouter basename="/MSR-FrontEnd">
       <Routes>
-        <Route exact path = "/MSR-FrontEnd" element={<HomePage/>}/>
+        <Route exact path = "/" element={<HomePage/>}/>
         <Route path = "/Login" element={<LoginPage/>}/>
         <Route path = "/Register" element={<RegisterPage/>}/>
         <Route path = "/MainView" element={<MainView/>}/>
@@ -30,7 +30,7 @@ const App = ()=>{
 
 
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 export default App;
