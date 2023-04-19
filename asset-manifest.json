@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MSR-FrontEnd/static/css/main.e0b09b1c.css",
-    "main.js": "/MSR-FrontEnd/static/js/main.608f73f9.js",
+    "main.js": "/MSR-FrontEnd/static/js/main.e545d139.js",
     "static/media/login2.png": "/MSR-FrontEnd/static/media/login2.475f5bf0c8777aefd63b.png",
     "static/media/register2.png": "/MSR-FrontEnd/static/media/register2.ed4f1b9d71ba9a3f0630.png",
     "static/media/lofi-wpp.png": "/MSR-FrontEnd/static/media/lofi-wpp.619842fa02d9793657a0.png",
@@ -31,10 +31,10 @@
     "static/media/fa-v4compatibility.woff2": "/MSR-FrontEnd/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/MSR-FrontEnd/index.html",
     "main.e0b09b1c.css.map": "/MSR-FrontEnd/static/css/main.e0b09b1c.css.map",
-    "main.608f73f9.js.map": "/MSR-FrontEnd/static/js/main.608f73f9.js.map"
+    "main.e545d139.js.map": "/MSR-FrontEnd/static/js/main.e545d139.js.map"
   },
   "entrypoints": [
     "static/css/main.e0b09b1c.css",
-    "static/js/main.608f73f9.js"
+    "static/js/main.e545d139.js"
   ]
 }
