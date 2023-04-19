@@ -34,7 +34,7 @@ const MenuComponent = (props) => {
                         <button
                             className="btn-menu align-items-center">
                             <i class="fas fa-lightbulb fa-lg"></i>
-                            <small style={{ color: 'white' }}> <a href="/reddit">Tips & Consejos</a></small>
+                            <small style={{ color: 'white' }}> <a href="/MSR-FrontEnd/reddit">Tips & Consejos</a></small>
                         </button>
                     </li>
 

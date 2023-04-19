@@ -98,7 +98,7 @@ const UserFormComponent = ({ userAdd, usuarioEditado, setUsuarioEditado, userEdi
 
                     <div class="opcbtn mb-3">
                         <button class="btn btn  ">
-                            <a href="/MainView">Iniciar sesión</a>
+                            <a href="/MSR-FrontEnd/MainView">Iniciar sesión</a>
                         </button>
 
                         {/* <button type="submit" disabled={isLoading}>
@@ -112,7 +112,7 @@ const UserFormComponent = ({ userAdd, usuarioEditado, setUsuarioEditado, userEdi
                             <span> <a href="#">Olvidaste tu contraseña</a></span> <br />
                         </div>
                         <div class="mb-3">
-                            <span>¿No estás registrado aún? <a class="linea" href="/Register">Regístrate aquí</a></span> <br />
+                            <span>¿No estás registrado aún? <a class="linea" href="/MSR-FrontEnd/Register">Regístrate aquí</a></span> <br />
                         </div>
                     </div>
 

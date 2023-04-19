@@ -20,7 +20,7 @@ const NavBarComponent = ({infoButtom, handleOnClick,onButtonClick}) => {
                 <nav class="navbar d-flex ms-auto">
                     <div class="navbar-nav">
                         <div class="d-flex align-items-center">
-                            <a href="/Profile">
+                            <a href="/MSR-FrontEnd/Profile">
                                 <button class="btn-avatar btn-dark px-1 me-2">
                                     <i class="fas fa-user-alt"></i>
                                 </button>

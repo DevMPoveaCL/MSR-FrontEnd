@@ -3,7 +3,7 @@ import '../assets/ReddirAssets/SideNav.css'
 
 export default function SideNavComponent() {
     const menus = [
-        {to: '/r/popular', text:"Pöpular"},
+        {to: '/r/popular', text:"Popular"},
         {to: '/r/all', text:"All"},
         {to: '/r/random', text:"Random"},
     ]

@@ -20,7 +20,7 @@ export default function PostItem() {
                 />
                 <span class="ms-3">
                   <small class="font-weight-bold ms-4">
-                    <h3><a href="http://localhost:3000/post1">Mentalidades</a></h3>
+                    <h3><a href="/MSR-FrontEnd/post1">Mentalidades</a></h3>
                   </small>
                 </span>
               </div>
@@ -48,7 +48,7 @@ export default function PostItem() {
                 />
                 <span class="ms-3">
                   <small class="font-weight-bold ms-4">
-                    <h3><a href="/Post2">Gestión del tiempo</a></h3>
+                    <h3><a href="/MSR-FrontEnd/Post2">Gestión del tiempo</a></h3>
                   </small>
                 </span>
               </div>
@@ -77,7 +77,7 @@ export default function PostItem() {
                 />
                 <span class="ms-3">
                   <small class="font-weight-bold ms-4">
-                    <h3><a href="/Post3">Tips de estudio</a></h3>
+                    <h3><a href="/MSR-FrontEnd/Post3">Tips de estudio</a></h3>
                   </small>
                 </span>
               </div>
@@ -105,7 +105,7 @@ export default function PostItem() {
                 />
                 <span class="ms-3">
                   <small class="font-weight-bold ms-4">
-                  <h3><a href="/Post4">Manejo del estrés</a></h3>
+                  <h3><a href="/MSR-FrontEnd/Post4">Manejo del estrés</a></h3>
                   </small>
                 </span>
               </div>

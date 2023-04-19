@@ -79,7 +79,7 @@ const UserFormRegisterComponent = ({ userAdd, usuarioEditado, setUsuarioEditado,
                                 class="mb-3 btn btn-outline-info"
                                 
                             >
-                                <a href="/Login">Volver a Login</a>
+                                <a href="/MSR-FrontEnd/Login">Volver a Login</a>
                             </button>
                             <button
                                 type="button"
@@ -87,7 +87,7 @@ const UserFormRegisterComponent = ({ userAdd, usuarioEditado, setUsuarioEditado,
                                 
                                 onClick={() => userAdd(usuario)}
                             >
-                                <a href='/MainView'>Registrar usuario</a>
+                                <a href='/MSR-FrontEnd/MainView'>Registrar usuario</a>
                             </button>
                         </div>
                     )}
